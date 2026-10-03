@@ -1,0 +1,11 @@
+{
+    "channel":  "transfer",
+    "version":  "2.1.25",
+    "cosVersion":  "2.1.25",
+    "packageUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.25/Kira-PC-Control-Setup-x64.exe",
+    "extensionUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.25/Kira-PC-Control-Extension.zip",
+    "sha256":  "f0c83f184aaf45ad0cccfa0bf70c084b5dd7c5501b83acedab5b930c1fb77e67",
+    "extensionSha256":  "ec932ad93d837ca85e90fe2aedf357e2bbde147f3424c2fec6d74e83dc688675",
+    "size":  263461007,
+    "notes":  "Kira PC Control Transfer build synchronized with KPC main and CoS 2.1.25. Destination data is preserved across updates; source-PC credentials and tunnel IDs are not transferred."
+}
