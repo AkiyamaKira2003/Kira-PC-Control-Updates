@@ -1,11 +1,12 @@
 {
     "channel":  "transfer",
-    "version":  "2.1.26",
-    "cosVersion":  "2.1.26",
-    "packageUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26/Kira-PC-Control-Setup-x64.exe",
-    "extensionUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26/Kira-PC-Control-Extension.zip",
-    "sha256":  "fd9697ff38296396fb0643b2ea7f95515496afb1fe9636d0517b9199f2e79344",
-    "extensionSha256":  "aa2ed7a1faaded4edebbd84a15f7a8373b5c5c714ac26b351bcddee00a4acca5",
-    "size":  263369116,
-    "notes":  "Kira PC Control Transfer synchronized with KPC main and CoS 2.1.26. Adds durable per-machine identity, machine-scoped connector names, visible machine badge, and fail-closed Core/Desktop/Plugins tunnel ownership checks. Fresh destination installs do not inherit source-PC credentials, tunnel IDs, or machine identity; self-updates preserve the destination machine identity and data."
+    "version":  "2.1.16.2",
+    "baseVersion":  "2.1.16",
+    "packageUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.16.2/Kira-PC-Control-Setup-x64.exe",
+    "extensionUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.16.2/Kira-PC-Control-Extension.zip",
+    "sha256":  "0b4402d1475c2b9cc315e4f8c6d1bf9aa066e2622037f95fb8a7e973f6eedf50",
+    "extensionSha256":  "4fb6a4c9bd396a32f1fc117bcd2b1a00c471443dab9df07733e4d283a2d6fba7",
+    "size":  263427124,
+    "legacyCarrierTag":  "v2.1.24",
+    "notes":  "KPC Transfer patch based on 2.1.16. Connector display family is independently selectable as KPC or EPC. Tunnel display names are informational only; routing uses three distinct configured tunnel IDs. Custom machine name plus a durable host UUID prevents same-named PCs from being confused. Fresh installs do not inherit source-PC credentials, tunnel IDs, or machine identity; self-updates preserve destination state."
 }
