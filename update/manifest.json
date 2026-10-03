@@ -1,11 +1,11 @@
 {
     "channel":  "transfer",
-    "version":  "2.1.25",
-    "cosVersion":  "2.1.25",
-    "packageUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.25/Kira-PC-Control-Setup-x64.exe",
-    "extensionUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.25/Kira-PC-Control-Extension.zip",
-    "sha256":  "f0c83f184aaf45ad0cccfa0bf70c084b5dd7c5501b83acedab5b930c1fb77e67",
-    "extensionSha256":  "ec932ad93d837ca85e90fe2aedf357e2bbde147f3424c2fec6d74e83dc688675",
-    "size":  263461007,
-    "notes":  "Kira PC Control Transfer build synchronized with KPC main and CoS 2.1.25. Destination data is preserved across updates; source-PC credentials and tunnel IDs are not transferred."
+    "version":  "2.1.26",
+    "cosVersion":  "2.1.26",
+    "packageUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26/Kira-PC-Control-Setup-x64.exe",
+    "extensionUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26/Kira-PC-Control-Extension.zip",
+    "sha256":  "6a84b39cadfaa7b1d55f8285629a61f86376cba6dc9144d7f631b92dc339a9d0",
+    "extensionSha256":  "5a6bef9bec2d242ae8f9bb37fc5586b38cb0c83c6e0cd39d4c32b9821afabf7c",
+    "size":  263355833,
+    "notes":  "Kira PC Control Transfer synchronized with KPC main and CoS 2.1.26. Adds durable per-machine identity, machine-scoped connector names, visible machine badge, and fail-closed Core/Desktop/Plugins tunnel ownership checks. Fresh destination installs do not inherit source-PC credentials, tunnel IDs, or machine identity; self-updates preserve the destination machine identity and data."
 }

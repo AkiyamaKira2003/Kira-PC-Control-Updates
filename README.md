@@ -7,4 +7,4 @@ Public binary update channel for the **Kira PC Control Transfer** distribution.
 - Transfer checks this repository only and does not download CoS binaries.
 - Application source code is not published here; release assets contain the Transfer installer and matching extension.
 
-Current release: **2.1.25**.
+Current release: **2.1.26**.
