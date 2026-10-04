@@ -1,12 +1,12 @@
 {
     "channel":  "transfer",
-    "version":  "2.1.16.2",
-    "baseVersion":  "2.1.16",
-    "packageUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.16.2/Kira-PC-Control-Setup-x64.exe",
-    "extensionUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.16.2/Kira-PC-Control-Extension.zip",
-    "sha256":  "0b4402d1475c2b9cc315e4f8c6d1bf9aa066e2622037f95fb8a7e973f6eedf50",
-    "extensionSha256":  "4fb6a4c9bd396a32f1fc117bcd2b1a00c471443dab9df07733e4d283a2d6fba7",
-    "size":  263427124,
-    "legacyCarrierTag":  "v2.1.24",
-    "notes":  "KPC Transfer patch based on 2.1.16. Connector display family is independently selectable as KPC or EPC. Tunnel display names are informational only; routing uses three distinct configured tunnel IDs. Custom machine name plus a durable host UUID prevents same-named PCs from being confused. Fresh installs do not inherit source-PC credentials, tunnel IDs, or machine identity; self-updates preserve destination state."
+    "version":  "2.1.26.4",
+    "baseVersion":  "2.1.26",
+    "packageUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26.4/Kira-PC-Control-Setup-x64.exe",
+    "extensionUrl":  "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26.4/Kira-PC-Control-Extension.zip",
+    "sha256":  "f2d1847449227cf52b0acba162b5f99821e5c3ddecad06fccd0c6dac912c52fa",
+    "extensionSha256":  "2b0becd8bc5ba63eb97cb6bd82864a9dd579bebae855eeb52bb6e9db87038916",
+    "size":  263325077,
+    "legacyCarrierTag":  "v2.1.029",
+    "notes":  "KPC Transfer 2.1.26.4 adds exact per-message source-machine provenance for ChatGPT website sends. Each submitted turn carries the immutable machine UUID plus the send-time machine name and connector family, while visible user text stays unchanged. Routing still uses configured tunnel IDs, not tunnel display names. Legacy Transfer 2.1.26 discovers this patch through byte-identical carrier v2.1.029."
 }
