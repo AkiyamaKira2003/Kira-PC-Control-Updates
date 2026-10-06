@@ -1,0 +1,12 @@
+{
+  "channel": "transfer",
+  "version": "2.1.26.5",
+  "baseVersion": "2.1.26",
+  "packageUrl": "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26.5/Kira-PC-Control-Setup-x64.exe",
+  "extensionUrl": "https://github.com/AkiyamaKira2003/Kira-PC-Control-Updates/releases/download/v2.1.26.5/Kira-PC-Control-Extension.zip",
+  "sha256": "340ac2d64555e53984e7e7960c833ea9e2763e3b3e3fd7f8ccae4c8613bef8fa",
+  "extensionSha256": "d5e7c7a643f484ace243c5a73ab92df1aca9bf64fe72882fbc16df25a6b563c5",
+  "size": 263376712,
+  "legacyCarrierTag": "v2.1.030",
+  "notes": "KPC Transfer 2.1.26.5 restores global Pending Deliveries visibility and guards KPC-only features across future CoS merges."
+}
